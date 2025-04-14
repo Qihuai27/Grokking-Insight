@@ -44,16 +44,11 @@ class Config():
         return self.d_model // self.num_heads
 
     @property
-    def random_answers(self):
-        return np.random.randint(low=0, high=self.p, size=(self.p, self.p))
-
-    @property
     def fns_dict(self):
         return {
             'add': lambda x, y: (x + y) % self.p,
             'subtract': lambda x, y: (x - y) % self.p,
-            'x2xyy2': lambda x, y: (x**2 + 2 * x*y + y**2) % self.p,
-            'rand': lambda x, y: self.random_answers[x][y]
+            'xy': lambda x, y: (x**2 + 2 * x*y + y**2) % self.p
         }
 
     @property
