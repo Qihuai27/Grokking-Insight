@@ -3,6 +3,19 @@ Code for the paper **Beyond Progress Measures: Theoretical Insights into the Mec
 
 The code is divided into two parts, one is the code for arithmetic research on small transformer or DNN, and the other is the code for the grokking phenomenon on resnet-18.
 
+### Quick Start
+```
+cd transformer/MLP
+python base.py /str.py / rec.py
+```
+or
+```
+cd resnet
+python vocab_gen.py
+python data_gen.py
+python resnet-18-test.py
+```
+
 ### Grokking on Transformer or DNN
 
 There are three files in the Transformer or DNN folder, base, rec, and str. Each file is configured with MED plots, which can be tested by modifying p and fn_name in the config parameters. rec and str correspond to the two data set setting methods in the first experiment of the paper, and the corresponding effects can be achieved by adjusting the parameter k.
