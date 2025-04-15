@@ -11,9 +11,9 @@ python base.py /str.py / rec.py
 or
 ```
 cd resnet
-python vocab_gen.py
+python dic_gen.py
 python data_gen.py
-python resnet-18-test.py
+python resnet_test.py
 ```
 
 ### Grokking on Transformer or DNN
