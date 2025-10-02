@@ -1,5 +1,5 @@
 # Grokking-Insight
-Code for the paper **Beyond Progress Measures: Theoretical Insights into the Mechanism of Grokking**.
+Code for the paper **Not Only When But Why: Theoretical Insights into Grokking**.
 
 The code is divided into two parts, one is the code for arithmetic research on small transformer or DNN, and the other is the code for the grokking phenomenon on resnet-18.
 
